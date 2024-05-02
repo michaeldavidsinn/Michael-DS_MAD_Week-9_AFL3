@@ -1,9 +1,9 @@
-//
-//  NotificationView.swift
-//  WatchLandmarks Watch App
-//
-//  Created by Michael Sin on 25/04/24.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A view that displays incoming notifications.
+*/
 
 import SwiftUI
 
@@ -40,4 +40,3 @@ struct NotificationView: View {
         message: "You are within 5 miles of Turtle Rock.",
         landmark: ModelData().landmarks[0])
 }
-

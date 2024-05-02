@@ -1,9 +1,9 @@
-//
-//  LandmarkDetail.swift
-//  WatchLandmarks Watch App
-//
-//  Created by Michael Sin on 25/04/24.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A detail view for a landmark suitable for display on a Watch.
+*/
 
 import SwiftUI
 
@@ -57,4 +57,3 @@ struct LandmarkDetail: View {
     return LandmarkDetail(landmark: modelData.landmarks[0])
         .environment(modelData)
 }
-

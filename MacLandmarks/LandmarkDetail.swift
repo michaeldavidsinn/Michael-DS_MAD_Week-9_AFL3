@@ -1,32 +1,28 @@
-//
-//  LandmarkDetail.swift
-//  MacLandmarks
-//
-//  Created by Michael Sin on 25/04/24.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A view showing the details for a landmark.
+*/
 
 import SwiftUI
 import MapKit
-
 
 struct LandmarkDetail: View {
     @Environment(ModelData.self) var modelData
     var landmark: Landmark
 
-
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }
 
-
     var body: some View {
         @Bindable var modelData = modelData
-        
+
         ScrollView {
             ZStack(alignment: Alignment(horizontal: .trailing, vertical: .top)) {
                 MapView(coordinate: landmark.locationCoordinate)
                     .frame(height: 300)
-
 
                 Button("Open in Maps") {
                     let destination = MKMapItem(placemark: MKPlacemark(coordinate: landmark.locationCoordinate))
@@ -36,12 +32,10 @@ struct LandmarkDetail: View {
                 .padding()
             }
 
-
             VStack(alignment: .leading, spacing: 20) {
                 HStack(spacing: 24) {
                     CircleImage(image: landmark.image.resizable())
                         .frame(width: 160, height: 160)
-
 
                     VStack(alignment: .leading) {
                         HStack {
@@ -50,7 +44,6 @@ struct LandmarkDetail: View {
                             FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                                 .buttonStyle(.plain)
                         }
-
 
                         VStack(alignment: .leading) {
                             Text(landmark.park)
@@ -61,9 +54,7 @@ struct LandmarkDetail: View {
                     }
                 }
 
-
                 Divider()
-
 
                 Text("About \(landmark.name)")
                     .font(.title2)
@@ -76,7 +67,6 @@ struct LandmarkDetail: View {
         .navigationTitle(landmark.name)
     }
 }
-
 
 #Preview {
     let modelData = ModelData()

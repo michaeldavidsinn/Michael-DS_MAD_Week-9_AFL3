@@ -1,13 +1,12 @@
-//
-//  ContentView.swift
-//  WatchLandmarks Watch App
-//
-//  Created by Michael Sin on 25/04/24.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+The root view for the app on Apple Watch.
+*/
 
 import SwiftUI
 import UserNotifications
-
 
 struct ContentView: View {
     var body: some View {
@@ -20,7 +19,6 @@ struct ContentView: View {
             }
     }
 }
-
 
 #Preview {
     ContentView()

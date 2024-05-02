@@ -1,14 +1,13 @@
-//
-//  NotificationController.swift
-//  WatchLandmarks Watch App
-//
-//  Created by Michael Sin on 25/04/24.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A notification for the watchOS app.
+*/
 
 import WatchKit
 import SwiftUI
 import UserNotifications
-
 
 class NotificationController: WKUserNotificationHostingController<NotificationView> {
     var landmark: Landmark?
@@ -40,4 +39,3 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
         }
     }
 }
-

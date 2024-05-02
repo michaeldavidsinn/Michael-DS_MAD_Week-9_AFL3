@@ -1,9 +1,9 @@
-//
-//  ContentView.swift
-//  MacLandmarks
-//
-//  Created by Michael Sin on 25/04/24.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+The content for the macOS app.
+*/
 
 import SwiftUI
 
@@ -13,7 +13,6 @@ struct ContentView: View {
             .frame(minWidth: 700, minHeight: 300)
     }
 }
-
 
 #Preview {
     ContentView()
