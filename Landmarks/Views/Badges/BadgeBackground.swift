@@ -1,9 +1,10 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A view that displays the background of a badge.
-*/
+//
+//  BadgeBackground.swift
+//  Landmarks
+//
+//  Created by Michael Sin on 02/05/24.
+//  Copyright © 2024 Apple. All rights reserved.
+//
 
 import SwiftUI
 

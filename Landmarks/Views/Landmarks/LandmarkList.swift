@@ -1,9 +1,11 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
+//
+//  LandmarkList.swift
+//  Landmarks
+//
+//  Created by Michael Sin on 02/05/24.
+//  Copyright © 2024 Apple. All rights reserved.
+//
 
-Abstract:
-A view showing a list of landmarks.
-*/
 
 import SwiftUI
 

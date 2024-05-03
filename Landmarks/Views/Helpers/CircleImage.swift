@@ -1,9 +1,10 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A view that clips an image to a circle and adds a stroke and shadow.
-*/
+//
+//  CircleImage.swift
+//  Landmarks
+//
+//  Created by Michael Sin on 02/05/24.
+//  Copyright © 2024 Apple. All rights reserved.
+//
 
 import SwiftUI
 

@@ -1,9 +1,10 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A list view for the watchOS app.
-*/
+//
+//  LandmarkList.swift
+//  WatchLandmarks Watch App
+//
+//  Created by Michael Sin on 03/05/24.
+//  Copyright © 2024 Apple. All rights reserved.
+//
 
 import SwiftUI
 

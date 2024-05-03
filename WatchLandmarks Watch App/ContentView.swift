@@ -1,9 +1,10 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-The root view for the app on Apple Watch.
-*/
+//
+//  ContentView.swift
+//  WatchLandmarks Watch App
+//
+//  Created by Michael Sin on 03/05/24.
+//  Copyright © 2024 Apple. All rights reserved.
+//
 
 import SwiftUI
 import UserNotifications
